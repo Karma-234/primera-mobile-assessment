@@ -10,6 +10,10 @@ class MoreView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Appcolors.def,
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [],
+      ),
     );
   }
 }
