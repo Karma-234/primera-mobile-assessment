@@ -7,6 +7,7 @@ class AppText extends StatelessWidget {
   final double size;
   final double height;
   final Color color;
+  final TextAlign align;
   final FontWeight weight;
   const AppText({
     super.key,
@@ -15,13 +16,14 @@ class AppText extends StatelessWidget {
     this.height = 24,
     this.color = Appcolors.text100,
     this.weight = FontWeight.w400,
+    this.align = TextAlign.left,
   });
 
   @override
   Widget build(BuildContext context) {
     return Text(
       text,
-      textAlign: TextAlign.left,
+      textAlign: align,
       style: TextStyle(
         fontSize: size.sp,
         height: size / height,

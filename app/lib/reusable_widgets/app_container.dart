@@ -20,6 +20,7 @@ class Appcontainer extends StatelessWidget {
         borderRadius: BorderRadius.circular(16.r),
         color: bgColor,
       ),
+      child: child,
     );
   }
 }

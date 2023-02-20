@@ -9,11 +9,13 @@ class OptionTile extends StatelessWidget {
   final IconData icon;
   final String text;
   final Widget? suffixChild;
+  final Color iconColor;
   const OptionTile({
     super.key,
     required this.icon,
     required this.text,
     this.suffixChild,
+    this.iconColor = Appcolors.primary100,
   });
 
   @override
@@ -22,7 +24,7 @@ class OptionTile extends StatelessWidget {
       children: [
         Icon(
           icon,
-          color: Appcolors.primary100,
+          color: iconColor,
         ),
         Gap(12.w),
         AppText(text: text),

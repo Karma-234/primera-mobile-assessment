@@ -118,6 +118,7 @@ class MoreView extends StatelessWidget {
                       suffixChild: Switch(
                         value: locator.isdark.value,
                         onChanged: (value) => locator.isdark.value = value,
+                        activeColor: Appcolors.primary100,
                       ),
                     ),
                   ],
