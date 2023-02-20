@@ -15,7 +15,7 @@ class Appcontainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 16.w),
+      padding: EdgeInsets.all(16.r),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16.r),
         color: bgColor,

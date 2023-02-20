@@ -2,13 +2,13 @@ import 'package:app/core/appcolors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class MyWidget extends StatelessWidget {
+class AppText extends StatelessWidget {
   final String text;
   final double size;
   final double height;
   final Color color;
   final FontWeight weight;
-  const MyWidget({
+  const AppText({
     super.key,
     required this.text,
     this.size = 16,

@@ -44,3 +44,10 @@ e.g Kamal Busari
 Candidate Email: 
 e.g busari1kamal@gmail.com
 
+### Section A answers
+1. A
+2. A
+3. A
+4. A
+5. G
+

@@ -11,5 +11,6 @@ class Appcolors {
   static const Color neutral = Color(0xFFFFFFFF);
   static const Color def = Color(0xFF959499);
   static const Color text50 = Color(0xFF959499);
+  static const Color text60 = Color(0xFF525252);
   static const Color blackOut = Colors.black;
 }
