@@ -16,6 +16,22 @@ class MoreView extends StatelessWidget {
     final locator = Get.put(MoreViewState());
     return Obx(
       () => Scaffold(
+        appBar: AppBar(
+          elevation: 0,
+          backgroundColor: Colors.transparent,
+          leadingWidth: 300.w,
+          leading: Padding(
+            padding: EdgeInsets.only(left: 16.w),
+            child: AppText(
+              text: 'More',
+              weight: FontWeight.w700,
+              height: 28,
+              size: 24,
+              color:
+                  locator.isdark.value ? Appcolors.neutral : Appcolors.blackOut,
+            ),
+          ),
+        ),
         backgroundColor:
             locator.isdark.value ? Appcolors.blackOut : Appcolors.def,
         body: Padding(
@@ -23,7 +39,6 @@ class MoreView extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Gap(24.h),
               const AppText(
                 text: 'Account',
                 color: Appcolors.text60,
